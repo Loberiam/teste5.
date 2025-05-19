@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://loberiamshop.com.br/sitemap.xml
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /painel/
+
+# Disallow temporary files
+Disallow: /*.tmp$
+Disallow: /*.temp$
